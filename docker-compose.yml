@@ -29,7 +29,7 @@ services:
       - ./.env:/opt/app/.env
       - ./public:/opt/app/public
     ports:
-      - "1338:1337"
+      - "1338:1338"
     networks:
       - bothell-band-api
     depends_on:
@@ -63,7 +63,7 @@ services:
       - ./.env:/opt/app/.env
       - ./public/uploads:/opt/app/public/uploads
     ports:
-      - "1337:1337"
+      - "1338:1338"
     networks:
       - bothell-band-api
     depends_on:
