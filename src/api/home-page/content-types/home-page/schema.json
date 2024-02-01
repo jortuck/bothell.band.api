@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.link"
+    },
+    "LinkHeader": {
+      "type": "string",
+      "required": true,
+      "default": "Additional Resources"
+    },
+    "NoEventsText": {
+      "type": "string",
+      "required": true,
+      "default": "Welcome! There are currently no upcoming events."
+    },
+    "MetaDescription": {
+      "type": "text",
+      "required": true,
+      "default": "Stay up-to-date on Bothell High School Jazz Band's news and events. Buy tickets, support fundraising efforts, and don't miss upcoming performances.",
+      "maxLength": 200
+    }
+  }
+}
