@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_link_event_links",
+  "info": {
+    "displayName": "EventLink"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "maxLength": 50,
+      "default": "My Link"
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "monetized",
+        "plain",
+        "live"
+      ],
+      "default": "plain",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    }
+  }
+}
