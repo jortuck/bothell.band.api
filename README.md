@@ -24,6 +24,17 @@ or
 ```
 docker compose --profile prod down -d --build
 ```
+#### Running Commands Inside The Container
+```
+docker compose exec jordan-api 
+```
+```
+docker compose exec jordan-api-prod
+```
+#### Data Transfer
+```
+docker compose exec jordan-api yarn strapi transfer --{from/to} {url}
+```
 
 # 🚀 Getting started with Strapi
 
